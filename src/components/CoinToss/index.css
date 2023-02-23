@@ -1,0 +1,66 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  border-radius: 15px;
+  padding: 35px;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #a35200;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.description {
+  color: ;
+  font-size: #334155;
+  font-weight: bold;
+}
+
+.coin-image {
+  height: 150px;
+  width: 150px;
+}
+
+.toss-button {
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #f9d423;
+  outline: none;
+  color: #a35200;
+  border: none;
+  border-radius: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.scores-container {
+  display: flex;
+}
+
+.score {
+  margin-right: 25px;
+  margin-left: 25px;
+  color: #475569;
+  font-size: 12px;
+  font-weight: bold;
+}
